@@ -1,0 +1,1 @@
+function foo(a,b){return a+b;}console.log(foo(1,undefined)); //NaN. If you want it to be 1, you should use a default value or check for undefined.
